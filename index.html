@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body style="background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/13/3a/8e/133a8e94-51ce-b8a2-61f8-7c6537b37377/4511820-94684.jpg/1200x630cw.png'); background-size:cover">
+    <h1 style="font-size: 70px; font-family:'Oswald'; color:rgb(57, 151, 151)">Cadastro de Nota Fiscal</h1>
+    <form action="cadastro.php" method="post">
+        <label for="Nome" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)">Nome: </label>
+        <input type="text" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="n1" id="n1"> <br><br><br>
+        <label for="p1" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)">Primeiro Produto: </label>
+        <input type="text" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="p1" id="p1"><br>
+        <label for="V1" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)"> -Valor: </label>
+        <input type="number" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="v1" id="v1"><br><br>
+        <label for="p2" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)">Segundo Produto: </label> 
+        <input type="text" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="p2" id="p2"><br>
+        <label for="v2" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)"> -Valor: </label>
+        <input type="number" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="v2" id="v2"><br><br><br>
+        <label for="VP" style="font-size:30px; font-family:'Oswald'; color:rgb(57, 151, 151)">Valor pago: </label>
+        <input type="number" style="font-size:25px; border-radius: 10px; border-color:rgb(0, 62, 133)" name="v3" id="v3"><br><br>
+        <input type="submit" style="font-size:30px; border-radius:10px; border-color:rgb(57, 151, 151); color:rgb(57, 151, 151)" value="Nota Fiscal">
+    </form>
+    </body>
+</html>
